@@ -110,7 +110,6 @@ header{
     width: 287.67px;
     height: 209px;
     
-
 }
 
 .infoContainer h1 {
@@ -130,9 +129,12 @@ header{
     height: 40px;
     background-color:#fff5e6 ;
     display: block;
-    margin: 0px 0px 40px 0px;
     float: right; /* se puede acomodar a la derecha sin el float?
      */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .mainImgContainerTwo {
@@ -168,5 +170,26 @@ header{
     }
     .mainInfoContainer {
         width: 100%;
+    }
+
+    .sectionTwoHome {
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .mainLinksContainerTwo{
+        width: 100%;
+    }
+    .mainImgContainerThree {
+        width: 100%;
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoContainer h1 {
+        text-align: center;
     }
 }
