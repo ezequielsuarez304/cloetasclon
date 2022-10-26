@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+}
+*   { font-family: 'Jost', sans-serif;}
+
+header{
+    display: flex;
+    }
+
+.top {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: red;/* #f0f0f0 */
+
+}
+
+.headerLeft{
+    border: 1px solid black;
+    width: auto;
+    display: inline-block;
+}
+
+.headerLeft img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo img {
+    width: 145px;
+    height: 38px;
+}
+
+.mainContentHome img {
+    width: 100%;
+}
+
+.sectionOneHome {
+    margin-top: 20vh;
+    display: flex;
+    padding: 0 6vw;
+}
+
+.mainImgContainer {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainImgContainer img {
+    width: 100%;
+}
+
+.mainInfoContainer{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.mainInfoImgContainer img {
+    width: 60%;
+}
+
+.mainInfoImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainLinksContainer a {
+    text-decoration: none;
+    color: #454545;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.mainLinksContainer span {
+    font-weight: bold;
+    color: #454545;
+    font-size: 1.3rem;
+}
+
+.mainLinksContainer span::after {
+    margin: 0%;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .sectionOneHome {
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .mainImgContainer{
+        width: 100%;
+    }
+    .mainInfoContainer {
+        width: 100%;
+    }
+}
