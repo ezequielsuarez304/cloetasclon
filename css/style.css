@@ -5,6 +5,8 @@ body {
 
 header{
     display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
     }
 
 .top {
@@ -25,6 +27,19 @@ header{
     height: 30px;
 }
 
+.headerRight {
+    border: 1px solid black;
+}
+
+.headerRight img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.logo {
+    width: 138px;
+}
 .logo img {
     width: 145px;
     height: 38px;
@@ -35,7 +50,6 @@ header{
 }
 
 .sectionOneHome {
-
     display: flex;
     padding: 0 6vw;
 }
@@ -168,16 +182,18 @@ header{
 
 .infoContainer a {
     text-align: center;
+
     width: 150px;
     height: 40px;
-    background-color:#fff5e6 ;
+    background-color: #fff5e6;
     display: block;
-    float: right; /* se puede acomodar a la derecha sin el float?
-     */
+    float: right;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
 }
 
 .mainImgContainerTwo {

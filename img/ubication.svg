@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="map-planner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#49545C;}
+	.st1{fill:#5B5B5B;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#5B5B5B;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M350,604.4c-4.8,0-9.6-1.8-13.2-5.5C329.1,591.2,148,408.8,148,292.4c0-123.2,102.7-196.8,202-196.8
+			c99.3,0,202,73.6,202,196.8c0,116.4-181.1,298.8-188.8,306.5C359.6,602.5,354.8,604.4,350,604.4L350,604.4z M350,131
+			c-80.9,0-166.6,61.6-166.6,161.4c0,77.2,110.7,211.6,166.6,270.4c55.9-58.9,166.6-193.3,166.6-270.4
+			C516.6,192.7,436.2,131,350,131L350,131z"/>
+	</g>
+	<g>
+		<path class="st0" d="M350,368.7c-39.2,0-71-31.9-71-71.1s31.9-71.1,71-71.1c39.2,0,71,31.9,71,71.1S389.2,368.7,350,368.7
+			L350,368.7z M350,261.3c-20,0-36.3,16.3-36.3,36.4c0,20.1,16.3,36.4,36.3,36.4c20,0,36.3-16.3,36.3-36.4
+			C386.3,277.6,370,261.3,350,261.3L350,261.3z"/>
+	</g>
+</g>
+</svg>
