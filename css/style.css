@@ -17,7 +17,6 @@ header{
 }
 
 .headerLeft{
-    border: 1px solid black;
     width: auto;
     display: inline-block;
 }
@@ -28,7 +27,7 @@ header{
 }
 
 .headerRight {
-    border: 1px solid black;
+
 }
 
 .headerRight img {
