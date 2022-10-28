@@ -44,6 +44,18 @@ header{
     height: 38px;
 }
 
+.navInfo {
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
+
+.navInfo a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 0px 20px;
+}
+
 .mainContentHome img {
     width: 100%;
 }
@@ -323,6 +335,11 @@ header{
 
     .infoSectionFour {
         width: 100%;
+    }
+    
+    .navInfo {
+        display: flex;
+        flex-direction: column;
     }
 
 }
