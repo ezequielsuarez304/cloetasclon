@@ -5,15 +5,20 @@ body {
 
 header{
     display: flex;
+    width:100%;
+    background-color:white;
     justify-content: space-between;
-    padding: 0px 20px;
+    position: fixed;
+    flex-wrap: wrap;
     }
 
 .top {
     font-size: 10px;
     text-align: center;
     letter-spacing: 1px;
-    background: #f0f0f0
+    background: #f0f0f0;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .headerLeft{
@@ -45,8 +50,12 @@ header{
 }
 
 .navInfo {
+    position: fixed;
     text-align: center;
     padding: 15px 0px 10px 0px;
+    background-color: white;
+    width: 100%;
+    margin-top: 99px;
 }
 
 .navInfo a {
@@ -289,6 +298,10 @@ header{
 .infoSectionFour a {
     text-decoration: none;
     color: black;
+
+}
+
+header {
 
 }
 
