@@ -625,6 +625,7 @@ font-size: 0.9rem;
         align-items: flex-start;
         flex-wrap: wrap;
         margin-top: 114px;
+        justify-content: center;
     }
 
     .infoSectionThree h2 {
@@ -647,6 +648,10 @@ font-size: 0.9rem;
     font-weight: 400;
     text-align: center;
     font-size: 15px;
+}
+
+.infoSectionFiveMobile b {
+    margin: 0;
 }
 
 .footerTop input {
