@@ -588,8 +588,10 @@ font-size: 0.9rem;
 }
 
 .footerTop input {
-
     width: 100px;
+}
+.footerTop {
+    margin: 40px 0px;
 }
 
 }
