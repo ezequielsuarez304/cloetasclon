@@ -358,6 +358,7 @@ header{
 .imgSectionThree {
     width: 551px;
     height: 827px;
+    
 }
 
 .imgSectionThree img {
@@ -378,14 +379,87 @@ header{
     font-weight: 400;
 }
 
+.sectionFiveMobile {
+    display: flex;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    background: rgb(255 255 255/70%);
+
+}
+
+.infoSectionFiveMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+
+}
+
+.infoSectionFiveMobile p {
+    text-align: center;
+    width: 250px;
+}
+
+.infoSectionFiveMobile b {
+    margin-left: 40px;
+}
+
+
 .sectionFive {
+    margin: 120px 0px;
     width: 100%;
     height: 450px;
+    position: relative;
 }
 
 .sectionFive img {
     width: 100%;
 }
+
+.infoSectionFive {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    left: 10px;
+    top: 0px;
+    bottom: 30px;
+    background: rgb(255 255 255/70%);
+    padding-bottom: 30px;
+}
+
+.infoSectionFive h2:first-child {
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #000;
+    font-weight: 400;
+}
+
+.elSalvador {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.laPlata {
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.horarios {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+
 
 @media screen and (max-width: 1000px){
     .sectionOneHome {
@@ -440,12 +514,20 @@ header{
     }
 
     .infoSectionThree h2 {
-        width: 450px;
+        width: 430px;
         height: 80px;
     }
 
     .imgSectionThree {
-        width: 430px;
+        width: 400px;
         height: 827px;
     }
+
+    .infoSectionFive{
+        display: none;
+}
+
+.infoSectionFiveMobile {
+    display:flex;
+}
 }
