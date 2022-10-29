@@ -378,6 +378,14 @@ header{
     font-weight: 400;
 }
 
+.sectionFive {
+    width: 100%;
+    height: 450px;
+}
+
+.sectionFive img {
+    width: 100%;
+}
 
 @media screen and (max-width: 1000px){
     .sectionOneHome {
@@ -431,4 +439,13 @@ header{
         align-items: flex-start;
     }
 
+    .infoSectionThree h2 {
+        width: 450px;
+        height: 80px;
+    }
+
+    .imgSectionThree {
+        width: 450px;
+        height: 827px;
+    }
 }
