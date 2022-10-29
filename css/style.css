@@ -193,7 +193,6 @@ header{
 
 .infoContainer a {
     text-align: center;
-
     width: 150px;
     height: 40px;
     background-color: #fff5e6;
@@ -245,7 +244,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 50vw;
-    height: 672px;/*  aca le puse esto por que si no, no quedaba a la misma altura que la imagen de la izquierda */
+    height: 546px;/*  aca le puse esto por que si no, no quedaba a la misma altura que la imagen de la izquierda */
     align-items: center;
     background-color: #f7f1e8;
     justify-content: center;
@@ -304,6 +303,82 @@ header{
     width: 100%;
 }
 
+.caja2 {
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #404040;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    text-align: center;
+}
+
+.caja2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoSectionThree {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.infoSectionThree h2 {
+    width: 551px;
+    height: 80px;
+    font-family: 'Source Serif Pro';
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.infoSectionThree p {
+    color: #454545;
+    line-height: 25px;
+    letter-spacing: 1px;
+    width: 60%;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px 0px 30px;
+}
+
+.imgSectionThree {
+    width: 551px;
+    height: 827px;
+}
+
+.imgSectionThree img {
+    width: 100%;
+}
+
+.infoSectionThree a {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #fff5e6;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
 @media screen and (max-width: 1000px){
     .sectionOneHome {
         flex-direction: column;
@@ -347,6 +422,7 @@ header{
 
     .infoSectionFour {
         width: 100%;
+        height: 546px;
     }
     
     .navInfo {
