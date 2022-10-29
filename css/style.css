@@ -317,9 +317,10 @@ header{
     text-align: center;
 }
 
-.caja2 a {
-    color: white;
-    text-decoration: none;
+.caja2 img {
+    width: 30px;
+    height: 30px;
+
 }
 
 .sectionThree {
@@ -471,9 +472,11 @@ header{
 }
 
 .footerTop {
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
 .footerTop h2 {
@@ -510,6 +513,51 @@ font-size: 0.9rem;
 .footerMiddle img {
     width: 60px;
     height: 60px;
+}
+
+.footerBottom {
+    width: 100%;
+    background-color: #fbf8f1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footerBottom ul li a {
+    
+    text-decoration: none;
+    color: black;
+    line-height: 16px;
+    letter-spacing: .5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.footerBottom span {
+    display: flex;
+    justify-content: center;
+    
+}
+.footerBottom ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.lastFooter {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastFooter img {
+    width: 40px;
+    height: 54px;
+}
+
+.lastFooter p {
+    font-size: 0.7rem;
+    letter-spacing: .5px;
+    line-height: 42px;
 }
 
 
@@ -588,10 +636,8 @@ font-size: 0.9rem;
 }
 
 .footerTop input {
-    width: 100px;
+    width: 400px;
 }
-.footerTop {
-    margin: 40px 0px;
-}
+
 
 }
