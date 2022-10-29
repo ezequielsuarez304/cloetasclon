@@ -436,6 +436,7 @@ header {
 }
 
 .sectionFive img {
+
     width: 100%;
 }
 
@@ -667,5 +668,8 @@ asdasdas
     font-weight: 600;
 }
 
+.sectionFive {
+    position:static;
+}
 
 }
